@@ -3,7 +3,7 @@
 describe('Controller: MainCtrl', function () {
 
   // load the controller's module
-  beforeEach(module('karmaE2eGeneratorApp'));
+  beforeEach(module('karmaGeneratorApp'));
 
   var MainCtrl,
     scope;

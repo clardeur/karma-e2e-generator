@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('karmaE2eGeneratorApp', [])
+angular.module('karmaGeneratorApp', [])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {

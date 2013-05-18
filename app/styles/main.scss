@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+@import "sass-bootstrap/lib/bootstrap";
+@import "sass-bootstrap/lib/responsive";
+
+body {
+	padding-top: 40px;
+	height: 100%;
+}
+
+.navbar-fixed-top {
+	top: 0;
+}
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+	position: fixed;
+	right: 0;
+	left: 0;
+	z-index: 1030;
+	margin-bottom: 0;
+}
+
+.navbar {
+	margin-bottom: 20px;
+	overflow: visible;
+}
+
+.hero-unit {
+	padding: 1em;
+	margin: 0;
+	background-color: #F3F3F3;
+	border: 1px solid #ddd;
+	text-align: center;
+
+	form {
+		margin: 0;
+	}
+}
+
+iframe {
+	width: 100%;
+	height: 100%;
+}
+

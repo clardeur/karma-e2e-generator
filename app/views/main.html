@@ -1,9 +1,12 @@
 <div class="hero-unit">
-  <h1>'Allo, 'Allo!</h1>
-  <p>You now have</p>
-  <ul>
-      <li ng-repeat="thing in awesomeThings">{{thing}}</li>
-  </ul>
-  <p>installed.</p>
-  <h3>Enjoy coding! - Yeoman</h3>
+  <form name="urlForm" ng-submit="go()">
+    <div class="input-append">
+      <input class="input-xxlarge" type="url" placeholder="Enter your webiste URL here..." required ng-model="url">
+      <button class="btn" type="button" ng-click="go()">Start</button>
+    </div>
+  </form>
+</div>
+
+<div class="container"> 
+  <iframe src="{{iframe}}" ng-show="iframe"></iframe>
 </div>
