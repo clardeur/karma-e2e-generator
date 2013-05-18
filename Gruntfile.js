@@ -255,6 +255,12 @@ module.exports = function (grunt) {
             'images/{,*/}*.{gif,webp}',
             'styles/fonts/*'
           ]
+        },
+        {
+          expand: true,
+          cwd: 'heroku/',
+          dest: '<%= yeoman.dist %>',
+          src: '*'
         }]
       }
     }
